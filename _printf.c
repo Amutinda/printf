@@ -84,6 +84,6 @@ int _printf(const char *format, ...)
 
   va_start(args, format);
 
-ret = run_printf(format, args, output);
-return (ret);
+  ret = run_printf(format, args, output);
+  return (ret);
 }
